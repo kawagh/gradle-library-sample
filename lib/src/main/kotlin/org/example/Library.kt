@@ -4,6 +4,8 @@
 package org.example
 
 class Library {
+    val valueAtSpecificTag : String = "experiment/2_tag"
+
     fun someLibraryMethod(): Boolean {
         return true
     }
