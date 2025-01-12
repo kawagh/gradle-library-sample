@@ -7,4 +7,6 @@ class Library {
     fun someLibraryMethod(): Boolean {
         return true
     }
+
+    fun methodAtSpecificBranch(): String = "experiment/1_branch"
 }
