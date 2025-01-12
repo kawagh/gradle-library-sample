@@ -27,8 +27,8 @@ JVM:          17.0.13 (Ubuntu 17.0.13+11-Ubuntu-2ubuntu122.04)
 OS:           Linux 6.8.0-51-generic amd64
 ```
 
-[!NOTE]
-- `gradle init`で作成されるプロジェクト構成がバージョンによって変わりうるので記載している
+> [!NOTE]
+> `gradle init`で作成されるプロジェクト構成がバージョンによって変わりうるので記載している
 
 
 ### 作成方法
@@ -105,9 +105,9 @@ dependencies {
 }
 ```
 
-[!NOTE]
-- `org.example.kawagh` は`lib/build.gradle.kts`に記載された`group`に一致している
-- `lib`はサブプロジェクト名。ディレクトリ名の`lib/`に一致している
+> [!NOTE]
+> - `org.example.kawagh` は`lib/build.gradle.kts`に記載された`group`に一致している
+> - `lib`はサブプロジェクト名。ディレクトリ名の`lib/`に一致している
 
 #### gitタグ指定の場合
 
